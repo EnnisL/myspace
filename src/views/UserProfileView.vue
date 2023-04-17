@@ -72,6 +72,7 @@ export default {
 
     const post_a_post = (content) => {
       posts.count++;
+
       posts.posts.unshift({
         id: posts.count,
         userId: 1,
